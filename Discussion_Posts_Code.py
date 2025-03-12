@@ -3,7 +3,6 @@
 def main():
     intro()
     while True:
-    # Fix by Angela Vargas in inserting a value error for users to input int
         try:
             cups_needed = int(input('Enter the number of cups: '))
             if cups_needed <0:#corrected to be only positive numbers
